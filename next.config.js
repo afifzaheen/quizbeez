@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // Remove the experimental appDir flag if it exists
-  // as we're now fully using the App Router
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -12,6 +10,11 @@ const nextConfig = {
   images: {
     domains: ["placeholder.svg"],
     unoptimized: true,
+  },
+  // Explicitly tell Next.js to use only the App Router
+  // and ignore the Pages Router
+  experimental: {
+    appDir: true,
   },
 }
 
