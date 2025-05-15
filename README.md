@@ -60,8 +60,8 @@ npm start
 
 ## Live Demo
 
-[View the live questionnaire here](https://helper-bees-questionnaire.vercel.app)
-<!-- Replace with your actual deployed URL when available -->
+[View the live questionnaire here](https://v0-build-the-project-lac.vercel.app/)
+
 
 ## Technologies Used
 
@@ -85,4 +85,4 @@ src/
 
 ## Contact
 
-For any questions or support, please contact [[your-email@example.com](mailto:your-email@example.com)]
+For any questions or support, please contact [[afifzaheenva@gmail.com]]
