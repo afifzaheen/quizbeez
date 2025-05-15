@@ -1,62 +1,61 @@
 # The Helper Bees Questionnaire
 
-## Project Overview
 This is a multi-step questionnaire application built with Next.js and Tailwind CSS. The application allows users to navigate through a series of questions, with their responses collected and submitted at the end.
 
 ## Features
+
 - Multi-step form with progress tracking
 - Various question types (multiple choice, text input, etc.)
 - Responsive design for all device sizes
 - Clean, component-based architecture
 
-## Installation Steps
-1. Clone the repository
-\`\`\`bash
-git clone https://github.com/yourusername/helper-bees-questionnaire.git
-cd helper-bees-questionnaire
-\`\`\`
+## Getting Started
 
-2. Install dependencies
+First, install the dependencies:
+
 \`\`\`bash
 npm install
 # or
 yarn install
+# or
+pnpm install
 \`\`\`
 
-3. Run the development server
+Then, run the development server:
+
 \`\`\`bash
 npm run dev
 # or
 yarn dev
+# or
+pnpm dev
 \`\`\`
 
-## Commands
-- `npm run dev` - Start the development server
-- `npm run build` - Build the application for production
-- `npm start` - Start the production server
-- `npm run lint` - Run ESLint to check for code quality issues
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Project Structure
+
 \`\`\`
-src/
-├── pages/
-│   ├── index.tsx      # Main questionnaire page
-│   └── _app.tsx       # App component
-├── components/        # Reusable UI components
-│   ├── Header.tsx
-│   ├── Footer.tsx
-│   ├── Button.tsx
-│   └── ...
-├── styles/            # Global styles
-│   └── globals.css
-└── utils/             # Utility functions
+.
+├── app/                  # App Router
+│   ├── globals.css       # Global styles
+│   ├── layout.tsx        # Root layout
+│   └── page.tsx          # Main page component
+├── components/           # Reusable components
+│   ├── ui/               # UI components
+│   ├── Header.tsx        # Header component
+│   ├── Footer.tsx        # Footer component
+│   └── ...               # Other components
+├── lib/                  # Utility functions
+│   └── utils.ts          # Utility functions
+├── public/               # Static assets
+│   ├── logo.png          # Logo image
+│   └── elderly-couple.jpeg # Elderly couple image
+├── next.config.js        # Next.js configuration
+├── tailwind.config.js    # Tailwind CSS configuration
+└── tsconfig.json         # TypeScript configuration
 \`\`\`
 
-## Technologies Used
-- Next.js (Pages Router)
-- TypeScript
-- Tailwind CSS
-- React Hooks for state management
+## Deployment
 
-## Deployed Link
-[View Demo](https://helper-bees-questionnaire.vercel.app)
+This project can be deployed on Vercel.

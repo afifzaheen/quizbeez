@@ -22,16 +22,16 @@
 "use client"
 
 import { useState } from "react"
-import Header from "../components/Header"
-import Footer from "../components/Footer"
-import ProgressBar from "../components/ProgressBar"
-import WelcomeScreen from "../components/WelcomeScreen"
-import MovieGenreQuestion from "../components/MovieGenreQuestion"
-import DeveloperExperienceQuestion from "../components/DeveloperExperienceQuestion"
-import FavoriteMovieQuestion from "../components/FavoriteMovieQuestion"
-import MovieSnackQuestion from "../components/MovieSnackQuestion"
-import AddressQuestion from "../components/AddressQuestion"
-import CompletionScreen from "../components/CompletionScreen"
+import Header from "@/components/Header"
+import Footer from "@/components/Footer"
+import ProgressBar from "@/components/ProgressBar"
+import WelcomeScreen from "@/components/WelcomeScreen"
+import MovieGenreQuestion from "@/components/MovieGenreQuestion"
+import DeveloperExperienceQuestion from "@/components/DeveloperExperienceQuestion"
+import FavoriteMovieQuestion from "@/components/FavoriteMovieQuestion"
+import MovieSnackQuestion from "@/components/MovieSnackQuestion"
+import AddressQuestion from "@/components/AddressQuestion"
+import CompletionScreen from "@/components/CompletionScreen"
 
 export default function QuestionnairePage() {
   // State to track the current step of the questionnaire
