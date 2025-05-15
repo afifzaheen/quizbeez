@@ -1,0 +1,5 @@
+# Ignore the Pages Router directory to prevent conflicts with App Router
+pages/
+pages/_app.tsx
+pages/index.tsx
+pages/api/
