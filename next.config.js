@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  // Remove the experimental appDir flag if it exists
+  // as we're now fully using the App Router
   eslint: {
     ignoreDuringBuilds: true,
   },
