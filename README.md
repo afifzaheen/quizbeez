@@ -1,61 +1,88 @@
-# The Helper Bees Questionnaire
+You're absolutely right - the original requirement was to use the Pages Router. Let me correct the README to reflect that:
 
-This is a multi-step questionnaire application built with Next.js and Tailwind CSS. The application allows users to navigate through a series of questions, with their responses collected and submitted at the end.
+### The Helper Bees Questionnaire
 
-## Features
+## Project Overview
+
+A multi-step questionnaire application built for The Helper Bees using Next.js with the Pages Router. This interactive form collects user information through a series of engaging questions with a clean, professional interface.
+
+### Features
 
 - Multi-step form with progress tracking
-- Various question types (multiple choice, text input, etc.)
-- Responsive design for all device sizes
-- Clean, component-based architecture
+- Various question types (checkboxes, radio buttons, text inputs)
+- Responsive design for all devices
+- Professional user interface with The Helper Bees branding
 
-## Getting Started
 
-First, install the dependencies:
+## Installation Steps
 
-\`\`\`bash
+1. **Clone the repository**
+
+```shellscript
+git clone [repository-url]
+cd helper-bees-questionnaire
+```
+
+
+2. **Install dependencies**
+
+```shellscript
 npm install
 # or
 yarn install
 # or
 pnpm install
-\`\`\`
+```
 
-Then, run the development server:
 
-\`\`\`bash
+
+
+## Running the Application
+
+### Development Mode
+
+```shellscript
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-\`\`\`
+```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser
+
+### Production Build
+
+```shellscript
+npm run build
+npm start
+```
+
+## Live Demo
+
+[View the live questionnaire here](https://helper-bees-questionnaire.vercel.app)
+<!-- Replace with your actual deployed URL when available -->
+
+## Technologies Used
+
+- Next.js (Pages Router)
+- TypeScript
+- Tailwind CSS
+- React Hooks for state management
+
 
 ## Project Structure
 
-\`\`\`
-.
-├── app/                  # App Router
-│   ├── globals.css       # Global styles
-│   ├── layout.tsx        # Root layout
-│   └── page.tsx          # Main page component
-├── components/           # Reusable components
-│   ├── ui/               # UI components
-│   ├── Header.tsx        # Header component
-│   ├── Footer.tsx        # Footer component
-│   └── ...               # Other components
-├── lib/                  # Utility functions
-│   └── utils.ts          # Utility functions
-├── public/               # Static assets
-│   ├── logo.png          # Logo image
-│   └── elderly-couple.jpeg # Elderly couple image
-├── next.config.js        # Next.js configuration
-├── tailwind.config.js    # Tailwind CSS configuration
-└── tsconfig.json         # TypeScript configuration
-\`\`\`
+```plaintext
+src/
+├── pages/
+│   ├── index.tsx      # Main questionnaire page
+│   └── _app.tsx       # App component
+├── components/        # Reusable UI components
+├── styles/            # Global styles
+└── public/            # Static assets
+```
 
-## Deployment
+## Contact
 
-This project can be deployed on Vercel.
+For any questions or support, please contact [[your-email@example.com](mailto:your-email@example.com)]
