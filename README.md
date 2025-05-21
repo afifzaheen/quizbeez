@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-A multi-step questionnaire application built for The Helper Bees using Next.js with the Pages Router. This interactive form collects user information through a series of engaging questions with a clean, professional interface.
+A multi-step questionnaire application built for The Helper Bees using Next.js with the Pages Router. This interactive form collects user information through a series of engaging questions with a clean, professional interface. Finally complete the quiz and click "Take me to your leader" and then we can see the data on the console.
 
 ### Features
 
