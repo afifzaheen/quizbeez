@@ -1,5 +1,3 @@
-
-
 ### The Helper Bees Questionnaire
 
 ## Project Overview
@@ -18,21 +16,21 @@ A multi-step questionnaire application built for The Helper Bees using Next.js w
 
 1. **Clone the repository**
 
-```shellscript
+\`\`\`shellscript
 git clone [repository-url]
 cd helper-bees-questionnaire
-```
+\`\`\`
 
 
 2. **Install dependencies**
 
-```shellscript
+\`\`\`shellscript
 npm install
 # or
 yarn install
 # or
 pnpm install
-```
+\`\`\`
 
 
 
@@ -41,22 +39,22 @@ pnpm install
 
 ### Development Mode
 
-```shellscript
+\`\`\`shellscript
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-```
+\`\`\`
 
 Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ### Production Build
 
-```shellscript
+\`\`\`shellscript
 npm run build
 npm start
-```
+\`\`\`
 
 ## Live Demo
 
@@ -73,7 +71,7 @@ npm start
 
 ## Project Structure
 
-```plaintext
+\`\`\`plaintext
 src/
 ├── pages/
 │   ├── index.tsx      # Main questionnaire page
@@ -81,7 +79,7 @@ src/
 ├── components/        # Reusable UI components
 ├── styles/            # Global styles
 └── public/            # Static assets
-```
+\`\`\`
 
 ## Contact
 
